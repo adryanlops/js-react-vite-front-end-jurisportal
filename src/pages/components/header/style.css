@@ -87,6 +87,10 @@ nav{
         padding: 1rem 0;
         justify-content: space-evenly;
     }
+
+    .nav-list{
+        justify-content: space-around;
+    }
     
 
     /* quando estiver mais opções no menu */
