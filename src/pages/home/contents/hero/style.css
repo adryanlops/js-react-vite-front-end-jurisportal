@@ -37,7 +37,7 @@
 }
 
 .initial-text h1{
-    font-size: 3em;
+    font-size: 2rem;
     margin-bottom: 20px;
     text-transform: uppercase;
     color: var(--quarta);
@@ -46,16 +46,16 @@
 }
 
 .initial-text h2{
-    font-size: 2em;
+    font-size: 1.5rem;
     margin-bottom: 20px;
     font-family: 'Roboto Slab', serif;
     text-shadow: var(--textcolor2) 2px 0px 4px;
 }
 
 .initial-text p{
-    font-size: 1.5em;
+    font-size: 1.2rem;
     margin-bottom: 20px;
-    width: 50%;
+    max-width: 50%;
     line-height: 1.5em;
     text-shadow: var(--textcolor2) 2px 0px 5px;
 }
@@ -68,7 +68,7 @@
     display: inline-block;
     text-decoration: none; 
     padding: 15px 30px;
-    font-size: 18px;
+    font-size: 1rem;
     background-color: var(--secundaria);
     color: var(--textcolor1); 
     transition: color 0.4s ease-in-out; 
