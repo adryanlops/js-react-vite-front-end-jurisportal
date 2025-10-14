@@ -1,6 +1,6 @@
 .about-section{
     width: 100%;
-    height: 100vh;
+    height: 100vh auto;
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
@@ -12,6 +12,7 @@
 .about-title{
     text-align: center;
     font-family: 'Roboto Slab', serif;
+    margin: 2rem 0;
 }
 
 .about-title h1{
