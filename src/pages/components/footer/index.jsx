@@ -26,8 +26,7 @@ function Footer() {
             <h3>Endereço</h3>
           </li>
           <li>
-          Rua Francisco Ferreira Lopes, 151 - 1º andar - CEP 08561-050
-          POÁ - SP 
+          R. José de Oliveira Gomes, 111 - Centro, Poá - SP, 08561-300
           </li>
         </ul>
         <ul className="footer-list">
@@ -52,8 +51,8 @@ function Footer() {
         </ul>
         <div className="footer-subscribe">
           <h3>Horário de atendimento</h3>
-          <p>2a a 6a. feira - das 10 as 20h.</p>
-          <p>Sábados: Das 10 as 17 hs.</p>
+          <p>2ª a 6ª - 09h às 18h</p>
+          <p>Sábado - 10h às 14h</p>
           <div className="input-group">
             <input type="email" id="email" />
             <button>
