@@ -1,0 +1,65 @@
+.about-section{
+    width: 100%;
+    height: 100vh;
+    padding: 5em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--secundaria);
+}
+
+.about-title{
+    text-align: center;
+    margin: 4em;
+}
+
+.about-title h1{
+    font-size: 2.5em;
+    color: var(--textcolor1);
+    font-family: 'Roboto Slab', serif;
+    text-shadow: var(--textcolor2) 2px 0px 5px;
+}
+
+.about-title h2{ 
+    font-size: 1.5em;
+    color: var(--textcolor1);
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: var(--textcolor2) 2px 0px 5px;
+}
+
+.about-title h2::before{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: var(--quarta);
+    margin: 1em auto;
+
+}
+
+.about-qd{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+}
+
+.about-text{
+    max-width: 70%;
+    color: var(--textcolor1);
+    font-size: 1em;
+    line-height: 2em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border-radius: 10px;
+    box-shadow: 0cm 5px 10px var(--primaria);
+    padding: 20px;
+}

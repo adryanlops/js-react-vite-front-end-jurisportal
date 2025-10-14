@@ -1,0 +1,7 @@
+.main{ 
+    grid-area: main;
+  display: grid;
+  width: 100%;
+  min-height: calc(100vh - 10vh); 
+  padding-top: 5vh;
+}

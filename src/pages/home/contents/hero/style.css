@@ -1,0 +1,98 @@
+.hero-section{
+    width: 100%;
+    height: 100vh;
+}
+
+.banner-bg{
+    position: relative;
+    background: url(../../../../assets/homem-fazendo-seu-proximo-movimento.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner-bg::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(6, 20, 38, 0.5);
+}
+
+.initial-text{
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: var(--textcolor1);
+    z-index: 2;
+}
+
+.initial-text h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: var(--quarta);
+    font-family: 'Roboto Slab', serif;
+    text-shadow: var(--textcolor2) 2px 0px 4px;
+}
+
+.initial-text h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: var(--textcolor2) 2px 0px 4px;
+}
+
+.initial-text p{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    width: 50%;
+    line-height: 1.5em;
+    text-shadow: var(--textcolor2) 2px 0px 5px;
+}
+
+
+.initial-text a {
+    position: relative; 
+    overflow: hidden; 
+    z-index: 2;
+    display: inline-block;
+    text-decoration: none; 
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: var(--secundaria);
+    color: var(--textcolor1); 
+    transition: color 0.4s ease-in-out; 
+    border-radius: 3px;
+    box-shadow: var(--terciaria) 2px 0px 5px;
+}
+
+.initial-text a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%; 
+    height: 100%;
+    background-color: var(--terciaria); 
+    transition: width 0.4s ease-in-out;
+    z-index: -1; 
+}
+
+.initial-text a:hover {
+    color: var(--textcolor2); 
+}
+
+
+.initial-text a:hover::after {
+    width: 100%; 
+}

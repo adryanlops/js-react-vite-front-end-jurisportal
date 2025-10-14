@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--secundaria);
+}
+
+:root{ 
+  --primaria: #061426;
+  --secundaria: #091B40;
+  --terciaria: #E4EAF2;
+  --quarta: #13B3F2;
+  --textcolor1: #FFFFFF;
+  --textcolor2: #000000; 
+}

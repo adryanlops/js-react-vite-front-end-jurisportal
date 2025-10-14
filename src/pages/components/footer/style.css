@@ -1,0 +1,136 @@
+footer{
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    color: var(--textcolor2);
+
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: var(--quarta);
+    padding: 3em 3.5em;
+}
+
+.footer-contacts h1{
+    margin-bottom: 0.75em;
+
+}
+
+.footer-contacts p{
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+    width: 80%;
+}
+
+.footer-social-media{
+    display: flex;
+    gap: 0.2em;
+    margin-top: 0.5em;
+}
+
+.footer-link{
+    text-decoration: none;
+}
+
+.footer-social-media .footer-link{
+    height: 2em;
+    width: 2em;
+    color: var(--textcolor2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-media .footer-link i{
+    font-size: 1.5em;
+}
+
+.footer-social-media .footer-link:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.footer-list{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    list-style: none;
+    width: 200px;
+}
+
+.footer-list h3, .footer-contacts h1, .footer-subscribe h3{
+    color: var(--textcolor1);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.footer-contacts img{
+    width: 100px;
+    margin-bottom: 0.5em;
+}
+
+.footer-list .footer-link{
+    color: var(--textcolor2);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-list .footer-link:hover{
+    color: var(--terciaria);
+    transition: 0.4s;
+}
+
+.footer-subscribe { 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+    background-color: var(--terciaria);
+    border-radius: 4px;
+}
+
+.input-group input{
+    all: unset;
+    padding: 0.75em;
+    width: 100%;
+
+}
+
+.input-group button{
+    background: var(--secundaria);
+    border: none;
+    color: var(--textcolor2);
+    padding: 0.75em 1em;
+    font-size: 1em;
+    height: 100%;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.input-group button:hover{
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.input-group button i{
+    color: var(--textcolor1);
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    background: var(--quarta);
+    font-size: 0.9em;
+    padding: 1em;
+    font-weight: 100;
+}
