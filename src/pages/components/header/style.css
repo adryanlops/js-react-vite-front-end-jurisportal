@@ -85,6 +85,7 @@ nav{
         flex-direction: column;
         height: 12vh;
         padding: 1rem 0;
+        justify-content: space-evenly;
     }
     
 
