@@ -8,14 +8,14 @@ function Header() {
           <a href="/">Jurisportal</a>
         </div>
 
-        <div className="mobile-menu">
+        {/* <div className="mobile-menu">
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
-        </div>
+        </div> */}
 
         <ul className="nav-list">
-          <li className="dropdown">
+          {/* <li className="dropdown">
             <a className="drop-btn" href="#">
               Utilitários
             </a>
@@ -24,10 +24,10 @@ function Header() {
               <a href="/">Link 2</a>
               <a href="/">Link 3</a>
             </div>
-          </li>
+          </li> */}
           <li>
             <a className="nav-link" href="#">
-              Serviços
+              Planos
             </a>
           </li>
 

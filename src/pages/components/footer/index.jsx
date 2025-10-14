@@ -31,21 +31,16 @@ function Footer() {
         </ul>
         <ul className="footer-list">
           <li>
-            <h3>Products</h3>
+            <h3>Contatos</h3>
           </li>
           <li>
             <a href="#" className="footer-link">
-              App
+            (11) 2941-5656
             </a>
           </li>
           <li>
-            <a href="#" className="footer-link">
-              Desktop
-            </a>
-          </li>
-          <li>
-            <a href="#" className="footer-link">
-              Cloud
+            <a href="http://email:jurisportal@jurisportal.com.br/" className="footer-link">
+            jurisportal@jurisportal.com.br
             </a>
           </li>
         </ul>
@@ -53,12 +48,6 @@ function Footer() {
           <h3>Horário de atendimento</h3>
           <p>2ª a 6ª - 09h às 18h</p>
           <p>Sábado - 10h às 14h</p>
-          <div className="input-group">
-            <input type="email" id="email" />
-            <button>
-              <i className="fa-regular fa-envelope"></i>
-            </button>
-          </div>
         </div>
       </div>
 

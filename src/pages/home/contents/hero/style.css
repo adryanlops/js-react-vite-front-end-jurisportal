@@ -32,12 +32,13 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    gap: 2rem;
     color: var(--textcolor1);
     z-index: 2;
 }
 
 .initial-text h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     text-transform: uppercase;
     color: var(--quarta);
@@ -46,7 +47,7 @@
 }
 
 .initial-text h2{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
     font-family: 'Roboto Slab', serif;
     text-shadow: var(--textcolor2) 2px 0px 4px;
@@ -55,7 +56,7 @@
 .initial-text p{
     font-size: 1.2rem;
     margin-bottom: 20px;
-    max-width: 50%;
+    max-width: 40%;
     line-height: 1.5em;
     text-shadow: var(--textcolor2) 2px 0px 5px;
 }

@@ -17,14 +17,10 @@ footer{
     padding: 3em 3.5em;
 }
 
-.footer-contacts h1{
-    margin-bottom: 0.75em;
-
-}
 
 .footer-contacts p{
     margin-bottom: 0.5em;
-    font-size: 0.9em;
+    font-size: 1.2em;
     width: 80%;
 }
 
@@ -48,7 +44,7 @@ footer{
 }
 
 .footer-social-media .footer-link i{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .footer-social-media .footer-link:hover{
@@ -68,6 +64,7 @@ footer{
 .footer-list h3, .footer-contacts h1, .footer-subscribe h3{
     color: var(--textcolor1);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
 }
 
 .footer-contacts img{
@@ -89,48 +86,14 @@ footer{
 .footer-subscribe { 
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
-}
-
-.input-group{
-    display: flex;
-    align-items: center;
-    background-color: var(--terciaria);
-    border-radius: 4px;
-}
-
-.input-group input{
-    all: unset;
-    padding: 0.75em;
-    width: 100%;
-
-}
-
-.input-group button{
-    background: var(--secundaria);
-    border: none;
-    color: var(--textcolor2);
-    padding: 0.75em 1em;
-    font-size: 1em;
-    height: 100%;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-}
-
-.input-group button:hover{
-    opacity: 0.8;
-    transition: 0.4s;
-}
-
-.input-group button i{
-    color: var(--textcolor1);
+    gap: 0.5rem;
 }
 
 .footer-copyright{
     display: flex;
     justify-content: center;
     background: var(--quarta);
-    font-size: 0.9em;
+    font-size: 0.9rem;
     padding: 1em;
     font-weight: 100;
 }
