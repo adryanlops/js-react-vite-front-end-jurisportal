@@ -2,6 +2,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Contents from "./contents";
 import "./style.css";
+import './contents/responsividade/style.css';
 
 function Home() {
   return (
