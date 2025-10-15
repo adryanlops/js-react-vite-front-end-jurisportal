@@ -20,7 +20,7 @@ function Footer() {
               <i className="fa-brands fa-whatsapp"></i>
             </a>
             <a href="#" className="footer-link" id="whatsapp">
-              <i class="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
             </a>
           </div>
         </div>
@@ -47,8 +47,8 @@ function Footer() {
             </a>
           </li>
         </ul>
-        <div className="footer-subscribe">
-          <h3>Horário de atendimento</h3>
+        <div className="footer-list">
+          <h3>Horário de Atendimento</h3>
           <p>2ª a 6ª - 09h às 18h</p>
           <p>Sábado - 10h às 14h</p>
         </div>

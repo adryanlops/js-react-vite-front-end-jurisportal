@@ -26,7 +26,7 @@ nav{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
-    margin: 0 32px;
+    margin: 0 2rem;
 }
 
 .logo a{
@@ -44,6 +44,7 @@ nav{
 .nav-list{
     list-style: none;
     display: flex;
+    margin: 0 2rem;
 }
 
 .nav-list a{ 
@@ -90,7 +91,7 @@ nav{
 
     .nav-list{
         justify-content: space-around;
-        width: 100%;
+        width: 80%;
     }
     
 
@@ -118,7 +119,7 @@ nav{
     /* ------------------------------------- */
 }
 
-@keyframes navLinkFade{
+/* @keyframes navLinkFade{
     from{
         opacity: 0;
         transform: translateX(50px);
@@ -128,7 +129,7 @@ nav{
         transform: translateX(0px);
     }
     
-}
+} */
 
 .mobile-menu.active .line1{
     transform: rotate(-45deg) translate(-8px, 8px);

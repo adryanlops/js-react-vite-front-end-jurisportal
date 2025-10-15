@@ -55,9 +55,11 @@ footer{
 .footer-list{ 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 0.5em;
     list-style: none;
     width: 200px;
+
 }
 
 .footer-list h3, .footer-contacts h1, .footer-subscribe h3{
@@ -82,11 +84,6 @@ footer{
     transition: 0.4s;
 }
 
-.footer-subscribe { 
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
 
 .footer-copyright{
     display: flex;

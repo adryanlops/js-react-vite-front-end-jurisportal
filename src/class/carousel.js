@@ -6,21 +6,31 @@ class Carousel {
       this.currentIndex = 0;
       this.intervalId = null;
   
-      this.init();
+      if (this.wrapper && this.items.length && this.dotsContainer) {
+        this.init();
+      } else {
+        document.addEventListener("DOMContentLoaded", () => this.safeInit());
+      }
+    }
+
+    safeInit() {
+      // Atualiza os elementos e só então inicializa
+      this.wrapper = document.querySelector(".carousel-wrapper");
+      this.items = Array.from(document.querySelectorAll(".carousel-item"));
+      this.dotsContainer = document.querySelector(".carousel-dots");
+  
+      if (this.wrapper && this.items.length && this.dotsContainer) {
+        this.init();
+      } else {
+        console.error("Carousel: elementos não encontrados.");
+      }
     }
   
     init() {
       this.createDots();
       this.updateCarousel();
-  
-      document.querySelector(".carousel-prev")?.addEventListener("click", () => this.prev());
-      document.querySelector(".carousel-next")?.addEventListener("click", () => this.next());
-  
       this.enableSwipe();
       this.startAutoPlay();
-  
-      this.wrapper.addEventListener("mouseenter", () => this.stopAutoPlay());
-      this.wrapper.addEventListener("mouseleave", () => this.startAutoPlay());
     }
   
     createDots() {

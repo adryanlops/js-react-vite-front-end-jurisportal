@@ -2,12 +2,12 @@ import "./style.css";
 
 function About() {
   return (
-    <section class="about-section">
-      <div class="about-title">
+    <section className="about-section">
+      <div className="about-title">
         <h1>Sobre Nós</h1>
         <h2>Conheça nossa História</h2>
       </div>
-      <div class="about-qd">
+      <div className="about-qd">
         <p>
           O Jurisportal teve sua origem em 2010, quando o advogado Jonas
           Oliveira desenvolveu a plataforma para uso interno em seu escritório,

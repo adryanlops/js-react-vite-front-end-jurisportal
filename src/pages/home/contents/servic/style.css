@@ -1,7 +1,7 @@
 .services-section{
     width: 100%;
     height: 100vh auto;
-    padding: 5em 2em;
+    padding: 2.5rem 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,8 @@
 }
 
 .services-text{
-    max-width: 800px;
+    width: 800px;
+    max-width: 80%;
     text-align: center;
     display: flex;
     flex-direction: column;
