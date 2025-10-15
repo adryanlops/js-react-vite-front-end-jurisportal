@@ -19,6 +19,9 @@ function Footer() {
             <a href="#" className="footer-link" id="whatsapp">
               <i className="fa-brands fa-whatsapp"></i>
             </a>
+            <a href="#" className="footer-link" id="whatsapp">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
           </div>
         </div>
         <ul className="footer-list">

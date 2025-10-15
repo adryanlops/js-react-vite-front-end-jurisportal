@@ -1,4 +1,5 @@
 import './style.css'
+import './responsiviness/res.css'
 import Hero from './hero'
 import Services from './servic'
 import About from './about'
