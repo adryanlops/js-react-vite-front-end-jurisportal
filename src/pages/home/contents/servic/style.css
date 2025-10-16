@@ -6,77 +6,82 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 5rem;
     background: var(--terciaria);
 }
 
 .services-text{
-    width: 800px;
-    max-width: 80%;
+    max-width: 90%;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-}
+    gap: 2rem;
 
-.services-text h1{
-    font-size: 2.5rem;
-    color: var(--textcolor2);
+    & h1{
+        font-size: 2.5rem;
+        color: var(--textcolor2);
+    }
+
+    & p{
+        font-size: 1rem;
+        color: var(--textcolor2);
+    }
 }
 
 .carousel {
     position: relative;
-    max-width: 80%;
+    max-width: 100%;
     max-height: 70%;
-    margin: auto;
     overflow: hidden;
   }
-  
+
   .carousel-wrapper {
     display: flex;
     transition: transform 0.6s ease;
   }
-  
+
   .carousel-item {
     min-width: 100%;
     display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     align-items: center;
     justify-content: space-around;
     opacity: 0;
     transform: translateX(50px);
     transition: opacity 0.6s ease, transform 0.6s ease;
   }
-  
+
   .carousel-item.active {
     opacity: 1;
     transform: translateX(0);
   }
-  
+
   .carousel-item img {
-    max-width: 30%;
+    max-width: 40%;
     border-radius: 5px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   }
-  
+
   .carousel-info {
-    max-width: 50%;
+    max-width: 70%;
     color: var(--textcolor2);
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: center;
 
     & p{ 
-      font-size: 1.2rem;
+      font-size: 1rem;
       line-height: 1.6;
     }
 
     & h2{
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       color: var(--primaria);
     }
   }
 
-
-  
   .carousel-prev,
   .carousel-next {
     background-color: transparent;
@@ -90,8 +95,8 @@
     
   }
   
-  .carousel-prev { left: 10px; }
-  .carousel-next { right: 10px; }
+  .carousel-prev { left: 0px; }
+  .carousel-next { right: 0px; }
   
   .carousel-dots {
     text-align: center;
@@ -108,4 +113,37 @@
   
   .carousel-dots button.active {
     background: var(--secundaria);
+  }
+
+  @media (min-width: 720px){
+    .services-section{
+        height: 100vh;
+    }
+
+    .services-text{
+        max-width: 60%;
+    }
+
+    .carousel {
+      max-width: 100%;
+    }
+    
+    .carousel-item {
+      flex-direction: row;
+    }
+
+    .carousel-info{
+        max-width: 40%;
+    }
+    
+    .carousel-prev { left: 10px; }
+    .carousel-next { right: 10px; }
+  }
+
+  @media (min-width: 1024px){
+
+
+    .carousel {
+      max-width: 80%;
+    }
   }

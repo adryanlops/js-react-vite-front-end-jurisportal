@@ -36,69 +36,77 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    gap: 2rem;
+    gap: 1.5rem;
     color: var(--textcolor1);
     z-index: 2;
-    padding: 10vh 1.5rem;
+
+    & h1{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: var(--quarta);
+        font-family: 'Roboto Slab', serif;
+        text-shadow: var(--textcolor2) 2px 0px 4px;
+    }
+
+    & h2{
+        font-size: 1.5rem;
+        font-family: 'Roboto Slab', serif;
+        text-shadow: var(--textcolor2) 2px 0px 4px;
+    }
+
+
+    & p{
+        font-size: 1rem;
+        max-width: 80%;
+        line-height: 1.5em;
+        text-shadow: var(--textcolor2) 2px 0px 5px;
+    }
+
+    & a{
+        overflow: hidden; 
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+        text-decoration: none; 
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        background-color: var(--secundaria);
+        color: var(--textcolor1); 
+        transition: color 0.4s ease-in-out; 
+        border-radius: 3px;
+        box-shadow: var(--terciaria) 2px 0px 5px;
+    }
+
+    & a::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%; 
+        height: 100%;
+        background-color: var(--terciaria); 
+        transition: width 0.4s ease-in-out;
+        z-index: -1; 
+    }
+
+    & a:hover {
+        color: var(--textcolor2); 
+    }
+
+    & a:hover::after {
+        width: 100%; 
+    }
 }
 
-.initial-text h1{
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    color: var(--quarta);
-    font-family: 'Roboto Slab', serif;
-    text-shadow: var(--textcolor2) 2px 0px 4px;
-}
-
-.initial-text h2{
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-    font-family: 'Roboto Slab', serif;
-    text-shadow: var(--textcolor2) 2px 0px 4px;
-}
-
-.initial-text p{
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    max-width: 40%;
-    line-height: 1.5em;
-    text-shadow: var(--textcolor2) 2px 0px 5px;
-}
 
 
-.initial-text a {
-    position: relative; 
-    overflow: hidden; 
-    z-index: 2;
-    display: inline-block;
-    text-decoration: none; 
-    padding: 15px 30px;
-    font-size: 1rem;
-    background-color: var(--secundaria);
-    color: var(--textcolor1); 
-    transition: color 0.4s ease-in-out; 
-    border-radius: 3px;
-    box-shadow: var(--terciaria) 2px 0px 5px;
-}
+@media (min-width: 720px){
 
-.initial-text a::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%; 
-    height: 100%;
-    background-color: var(--terciaria); 
-    transition: width 0.4s ease-in-out;
-    z-index: -1; 
-}
+    .initial-text{ 
+        gap: 3rem;
+    }
 
-.initial-text a:hover {
-    color: var(--textcolor2); 
-}
-
-
-.initial-text a:hover::after {
-    width: 100%; 
+    .initial-text p{
+        max-width: 35%;
+    }
 }

@@ -1,4 +1,5 @@
-import "./style.css";
+
+import './style.css'
 import Logo from "../../../assets/logo.jpeg";
 
 
@@ -6,8 +7,8 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="footer-contacts">
-          <img src={Logo} alt="" />
+        <div className="footer-list">
+          <img src={Logo} alt="Logo" />
           <p>Agilidade e controle para seu escritório jurídico.</p>
           <div className="footer-social-media">
             <a href="#" className="footer-link" id="instagram">

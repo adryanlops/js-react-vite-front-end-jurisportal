@@ -1,14 +1,14 @@
 import { useEffect } from "react";
 import Carousel from "../../../../class/carousel";
-import "./style.css";
 import Imagem1 from "../../../../assets/imagem1.jpg";
 import Imagem2 from "../../../../assets/imagem2.jpg";
 import Imagem3 from "../../../../assets/imagem3.jpg";
+import './style.css'
 
 function Services() {
-  useEffect(() => {
-    new Carousel();
-  }, []);
+ useEffect(() => {
+new Carousel();
+}, []);
 
   return (
     <section className="services-section">
