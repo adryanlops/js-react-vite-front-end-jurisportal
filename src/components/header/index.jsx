@@ -28,7 +28,7 @@ function Header() {
             </div>
           </li> */}
           <li>
-            <Link className="nav-link" to="/Planos">
+            <Link className="nav-link" to="/planos">
               Planos
             </Link>
           </li>
