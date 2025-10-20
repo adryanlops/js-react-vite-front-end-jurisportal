@@ -98,9 +98,5 @@ class Carousel {
     }
   }
   
-  document.addEventListener("DOMContentLoaded", () => {
-    new Carousel();
-  });
-  
   export default Carousel;
   
