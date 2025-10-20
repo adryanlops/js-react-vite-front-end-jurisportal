@@ -1,6 +1,6 @@
 
 import './style.css'
-import Logo from "../../../assets/logo.jpeg";
+import Logo from "../../assets/logo.jpeg";
 
 
 function Footer() {
