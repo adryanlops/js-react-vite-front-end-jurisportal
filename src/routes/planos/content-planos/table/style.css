@@ -1,0 +1,43 @@
+@media (min-width: 800px) {
+
+    .plans-table thead {
+      color: Black;
+      background-color: var(--quarta);
+    }
+
+    .plans-table th,
+    .plans-table td {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+
+      & i{
+        color: var(--quarta);
+      }
+    }
+
+
+    .plans-table td del{ 
+      font-size: 0.8rem;
+    }
+
+    .plans-table td:first-child {
+      text-align: left;
+      font-weight: bold;
+    }
+
+    .price{
+      display: flex;
+      flex-direction: column;
+
+      & span{
+        font-weight: bold;
+      }
+    }
+  }
+
+  @media (max-width: 799px) {
+    .desktop-only {
+      display: none;
+    }
+  }

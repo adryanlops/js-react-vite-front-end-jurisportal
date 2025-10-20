@@ -1,0 +1,47 @@
+.plan-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 0px 10px var(--primaria);
+    padding: 15px;
+  }
+
+  .plan-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--quarta);
+  }
+
+  .plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .plan-card li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+
+    & i{
+        color: var(--quarta);
+    }
+
+  }
+
+  .plan-card del{
+    font-size: 0.8rem;
+  }
+
+  .valor{
+    font-weight: bold;
+  }
+
+
+  .plan-card .price {
+    font-weight: bold;
+  }
+
+  .plan-card del {
+    margin-right: 5px;
+  }

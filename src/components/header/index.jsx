@@ -1,12 +1,13 @@
 
 import './style.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
     <header className='header'>
       <nav>
         <div className="logo">
-          <a href="/">Jurisportal</a>
+          <Link to="/" className='Link-logo'>Jurisportal</Link>
         </div>
 
         {/* <div className="mobile-menu">
@@ -27,13 +28,13 @@ function Header() {
             </div>
           </li> */}
           <li>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="/Planos">
               Planos
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href='/'>
               Contato
             </a>
           </li>

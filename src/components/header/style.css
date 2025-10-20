@@ -17,6 +17,7 @@ nav{
     height: auto;
 }
 
+
 .logo{ 
     font-size: 1.5rem;
     text-align: center;
@@ -25,7 +26,7 @@ nav{
     margin-top: 1rem;
 }
 
-.logo a{ 
+.Link-logo{ 
     font-family: 'Roboto Slab', serif;
     font-size: 1.5rem;
     text-align: center;
@@ -38,7 +39,7 @@ nav{
     padding: 0.5rem;
 }
 
-.logo a:hover{ 
+.Link-logo:hover{ 
     opacity: 0.5;
 }
 
@@ -53,7 +54,7 @@ nav{
     }
 }
 
-.nav-list a{ 
+.nav-link{ 
     color: var(--textcolor1);
     text-decoration: none;
     transition: 0.3s;
@@ -61,7 +62,7 @@ nav{
     
 }
 
-.nav-list a:hover{ 
+.nav-link:hover{ 
     opacity: 0.5;
 }
 
