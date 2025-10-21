@@ -65,7 +65,7 @@
         text-shadow: var(--textcolor2) 2px 0px 5px;
     }
 
-    & a{
+    & .button{
         overflow: hidden; 
         position: relative;
         z-index: 2;
@@ -80,7 +80,7 @@
         box-shadow: var(--terciaria) 2px 0px 5px;
     }
 
-    & a::after{
+    & .button::after{
         content: '';
         position: absolute;
         top: 0;
@@ -92,11 +92,11 @@
         z-index: -1; 
     }
 
-    & a:hover {
+    & .button:hover {
         color: var(--textcolor2); 
     }
 
-    & a:hover::after {
+    & .button:hover::after {
         width: 100%; 
     }
 }
