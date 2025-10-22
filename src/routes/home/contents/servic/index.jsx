@@ -6,9 +6,12 @@ import Imagem3 from "../../../../assets/imagem3.jpg";
 import './style.css'
 
 function Services() {
- useEffect(() => {
-new Carousel();
-}, []);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      new Carousel();
+    }, 0);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <section className="services-section">

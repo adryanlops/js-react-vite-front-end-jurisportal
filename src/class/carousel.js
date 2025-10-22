@@ -30,6 +30,7 @@ class Carousel {
       this.createDots();
       this.updateCarousel();
       this.enableSwipe();
+      this.addButtonListeners();
       this.startAutoPlay();
     }
   
@@ -40,6 +41,19 @@ class Carousel {
         dot.addEventListener("click", () => this.goTo(i));
         this.dotsContainer.appendChild(dot);
       });
+    }
+  
+    addButtonListeners() {
+      const prevButton = document.querySelector(".carousel-prev");
+      const nextButton = document.querySelector(".carousel-next");
+      
+      if (prevButton) {
+        prevButton.addEventListener("click", () => this.prev());
+      }
+      
+      if (nextButton) {
+        nextButton.addEventListener("click", () => this.next());
+      }
     }
   
     updateCarousel() {
