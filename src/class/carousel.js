@@ -26,21 +26,35 @@ class Carousel {
       }
     }
   
-    init() {
-      this.createDots();
-      this.updateCarousel();
-      this.enableSwipe();
-      this.startAutoPlay();
-    }
+  init() {
+    this.createDots();
+    this.updateCarousel();
+    this.enableSwipe();
+    this.addButtonListeners();
+    this.startAutoPlay();
+  }
   
-    createDots() {
-      this.dotsContainer.innerHTML = "";
-      this.items.forEach((_, i) => {
-        const dot = document.createElement("button");
-        dot.addEventListener("click", () => this.goTo(i));
-        this.dotsContainer.appendChild(dot);
-      });
+  createDots() {
+    this.dotsContainer.innerHTML = "";
+    this.items.forEach((_, i) => {
+      const dot = document.createElement("button");
+      dot.addEventListener("click", () => this.goTo(i));
+      this.dotsContainer.appendChild(dot);
+    });
+  }
+
+  addButtonListeners() {
+    const prevButton = document.querySelector(".carousel-prev");
+    const nextButton = document.querySelector(".carousel-next");
+    
+    if (prevButton) {
+      prevButton.addEventListener("click", () => this.prev());
     }
+    
+    if (nextButton) {
+      nextButton.addEventListener("click", () => this.next());
+    }
+  }
   
     updateCarousel() {
       this.wrapper.style.transform = `translateX(-${this.currentIndex * 100}%)`;
