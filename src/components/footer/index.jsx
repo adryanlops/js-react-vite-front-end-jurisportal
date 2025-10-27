@@ -18,7 +18,7 @@ function Footer() {
             <a href="#" className="footer-link" id="facebook">
               <i className="fa-brands fa-facebook-f"></i>
             </a>
-            <a href="#" className="footer-link" id="whatsapp">
+            <a href="https://wa.me/message/KLQCLQJGMBDIJ1" className="footer-link" id="whatsapp">
               <i className="fa-brands fa-whatsapp"></i>
             </a>
             <a href="#" className="footer-link" id="whatsapp">

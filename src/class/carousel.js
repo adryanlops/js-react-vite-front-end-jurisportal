@@ -32,6 +32,9 @@ class Carousel {
       this.enableSwipe();
       this.addButtonListeners();
       this.startAutoPlay();
+
+      this.wrapper.addEventListener("mouseenter", () => this.stopAutoPlay());
+      this.wrapper.addEventListener("mouseleave", () => this.startAutoPlay());
     }
   
     createDots() {
@@ -101,7 +104,7 @@ class Carousel {
   
     startAutoPlay() {
       if (this.intervalId) return;
-      this.intervalId = window.setInterval(() => this.next(), 4000);
+      this.intervalId = window.setInterval(() => this.next(), 5000);
     }
   
     stopAutoPlay() {

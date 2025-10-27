@@ -1,0 +1,75 @@
+@media (min-width: 800px) {
+
+    .plans-table thead {
+      color: Black;
+      background-color: var(--quarta);
+      position: relative;
+    }
+
+    .plans-table th,
+    .plans-table td {
+      padding: 13px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+
+      & i{
+        color: var(--quarta);
+      }
+    }
+
+
+    .plans-table td del{ 
+      font-size: 0.8rem;
+    }
+
+    .plans-table td:first-child {
+      text-align: left;
+      font-weight: bold;
+    }
+
+    .plans-table .destaque {
+      background-color: #f8faff;
+      font-weight: 600;
+      position: relative;
+    }
+    
+    .plans-table th.destaque {
+      background-color: var(--quarta);
+      color: white;
+    }
+    
+    .selo-recomendado {
+      display: inline-block;
+      background-color: #ffb400;
+      color: #000;
+      font-size: 0.7rem;
+      font-weight: bold;
+      padding: 4px 6px;
+      border-radius: 10px;
+      margin-left: 8px;
+      position: relative;
+      top: -2px;
+    }
+    
+    .plans-table .destaque {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .price{
+      display: flex;
+      flex-direction: column;
+
+      & span{
+        font-weight: bold;
+      }
+    }
+
+
+  }
+
+  @media (max-width: 799px) {
+    .desktop-only {
+      display: none;
+    }
+  }
+

@@ -1,6 +1,6 @@
 import "./style.css";
-import { Cards } from "./content-planos/cards";
-import { Table } from "./content-planos/table";
+import { Cards } from "./contents/cards";
+import { Table } from "./contents/table";
 
 function Planos() {
   return (

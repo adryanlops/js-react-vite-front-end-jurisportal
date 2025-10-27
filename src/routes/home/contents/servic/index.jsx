@@ -39,7 +39,7 @@ function Services() {
             <div className="carousel-info">
               <h2>Produtividade sem burocracia</h2>
               <p>
-                O Jurisporta organiza as informações de forma clara, ajudando
+                O Jurisportal organiza as informações de forma clara, ajudando
                 você a reduzir falhas e focar no que realmente importa: advogar.
               </p>
             </div>

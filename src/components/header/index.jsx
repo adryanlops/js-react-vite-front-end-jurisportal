@@ -34,7 +34,7 @@ function Header() {
           </li>
 
           <li>
-            <a className="nav-link" href='/'>
+            <a className="nav-link" href='https://wa.me/message/KLQCLQJGMBDIJ1'>
               Contato
             </a>
           </li>

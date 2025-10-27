@@ -20,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "planos",
         element: <Planos />
+      },
+      {
+        path: "contato",
+        element: <Contato />
       }
     ]
   },
