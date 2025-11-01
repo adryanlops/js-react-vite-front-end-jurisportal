@@ -4,7 +4,7 @@ import { Table } from "./contents/table";
 
 function Planos() {
   return (
-    <div className="container">
+    <div className="container-plans">
       <h1>Escolha o Plano Ideal</h1>
       <p class="subtitle">Compare nossos planos e selecione a melhor opção para suas necessidades. Todos incluem suporte especializado.</p>
       <div className="mobile-only">
