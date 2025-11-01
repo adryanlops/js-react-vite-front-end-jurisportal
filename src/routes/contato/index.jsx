@@ -1,5 +1,7 @@
-import React, { useState, useContactForm } from "react";
-import ContactForm from "./../../class/validacao"
+import { useState } from "react";
+import useContactForm from "./../../services/validacao"
+import { ContactContainer } from "./content/ContactContainer";
+import { PageTitle } from "./content/PageTitle"
 import "./style.css";
 
 function Contato() {
@@ -15,7 +17,11 @@ function Contato() {
   return (
     <div className="container">
       
+      <PageTitle />
+
       <main className="main-container">
+
+      <ContactContainer />
 
         <section className="contact-form-container">
           <h3>Contatar</h3>

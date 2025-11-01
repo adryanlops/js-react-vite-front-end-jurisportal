@@ -1,21 +1,17 @@
-import React from 'react';
-import { View } from 'react-native';
-
-import './style.css';
+import React from "react";
 
 export function PageTitle() {
   return (
     <section className="page-title">
-        <h2> Contatos </h2>
-        <h1> Nossos Contatos</h1>
+      <h1> Nossos Contatos</h1>
+      <h2> Vamos conversar sobre o seu escritório?</h2>
+      <div className="text">
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
-          optio veritatis praesentium, labore fuga velit aliquid consequuntur
-          magnam iusto ipsum et voluptas quam veniam odio. Aut odio recusandae
-          cupiditate vitae numquam praesentium rerum libero deleniti, quod
-          dolore iste totam possimus fuga perferendis distinctio delectus est
-          dolorem? Consectetur nesciunt consequatur aut.
+          Nosso time está pronto para entender sua realidade e mostrar como o
+          Jurisportal pode ser adaptado às suas necessidades.
         </p>
-      </section>
+        <p>Atendimento humano, sem robôs.</p>
+      </div>
+    </section>
   );
 }

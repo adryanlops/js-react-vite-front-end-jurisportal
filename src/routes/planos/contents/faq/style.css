@@ -1,0 +1,86 @@
+
+/* Container Principal */
+.container-faq {
+  min-height: 80vh;
+  width: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: var(--secundaria);
+  padding: 10svh 0;
+}
+
+.container-faq h1 {
+  font-size: 1.8rem; 
+  color: var(--textcolor1);
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: var(--textcolor2) 2px 0px 5px;
+  margin-bottom: 4rem; 
+}
+
+/* Seção do FAQ */
+.faq-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    margin-bottom: 1rem;
+    width: 100%;
+    border-bottom: 1px solid var(--quarta);
+    color: var(--textcolor1);
+}
+
+.titulo {
+  width: 100%;
+  height: 60px;
+  padding: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+
+.arrow {
+  color: var(--quarta);
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.section > p {
+  margin: 0;
+  padding: 0 20px;
+  max-height: 0; 
+  overflow: hidden; 
+  transition: max-height 0.3s ease, padding 0.3s ease; 
+  color: var(--textcolor2);
+  background-color: var(--terciaria);
+}
+
+.section p.show {
+  max-height: 500px;
+  padding: 20px;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .container-faq h1 {
+        font-size: 2.5rem; 
+    }
+
+    .section {
+        max-width: 600px; 
+    }
+}

@@ -28,6 +28,8 @@ export function Cards() {
         </ul>
     </div>
     <div className="plan-card">
+
+    <span className="selo-recomendado">Recomendado</span>
         <h2>Estratégico</h2>
         <ul>
           <li><span>Usuários</span><span>5</span></li>

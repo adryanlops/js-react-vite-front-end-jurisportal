@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function useContactForm(form, setForm) {
+function useContactForm(form, setForm) {
   const [errors, setErrors] = useState({});
 
   function isEmpty(value) {
@@ -30,3 +30,5 @@ export function useContactForm(form, setForm) {
 
   return { errors, handleChange, handleSubmit };
 }
+
+export default useContactForm;
