@@ -13,7 +13,7 @@ export function Cards() {
           <li><span>Publicações automáticas</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Agenda integrada</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Gestão básica de equipe</span><i class="fa-solid fa-x"></i></li>
-          <li><span>Painel completo</span><i class="fa-solid fa-x"></i></li>
+          <li><span>Interface completa</span><i class="fa-solid fa-x"></i></li>
           <li><span>Estrutura para equipes médias</span><i class="fa-solid fa-x"></i></li>
           <li><span>Alto desempenho</span><i class="fa-solid fa-x"></i></li>
           <li><span>Operações em larga escala</span><i class="fa-solid fa-x"></i></li>
@@ -28,6 +28,8 @@ export function Cards() {
         </ul>
     </div>
     <div className="plan-card">
+
+    <span className="selo-recomendado">Recomendado</span>
         <h2>Estratégico</h2>
         <ul>
           <li><span>Usuários</span><span>5</span></li>
@@ -36,7 +38,7 @@ export function Cards() {
           <li><span>Publicações automáticas</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Agenda integrada</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Gestão básica de equipe</span><i class="fa-solid fa-circle-check"></i></li>
-          <li><span>Painel completo</span><i class="fa-solid fa-circle-check"></i></li>
+          <li><span>Interface completa</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Estrutura para equipes médias</span><i class="fa-solid fa-x"></i></li>
           <li><span>Alto desempenho</span><i class="fa-solid fa-x"></i></li>
           <li><span>Operações em larga escala</span><i class="fa-solid fa-x"></i></li>
@@ -59,7 +61,7 @@ export function Cards() {
           <li><span>Publicações automáticas</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Agenda integrada</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Gestão básica de equipe</span><i class="fa-solid fa-circle-check"></i></li>
-          <li><span>Painel completo</span><i class="fa-solid fa-circle-check"></i></li>
+          <li><span>Interface completa</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Estrutura para equipes médias</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Alto desempenho</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Operações em larga escala</span><i class="fa-solid fa-x"></i></li>
@@ -82,7 +84,7 @@ export function Cards() {
           <li><span>Publicações automáticas</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Agenda integrada</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Gestão básica de equipe</span><i class="fa-solid fa-circle-check"></i></li>
-          <li><span>Painel completo</span><i class="fa-solid fa-circle-check"></i></li>
+          <li><span>Interface completa</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Estrutura para equipes médias</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Alto desempenho</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Operações em larga escala</span><i class="fa-solid fa-circle-check"></i></li>
@@ -105,7 +107,7 @@ export function Cards() {
           <li><span>Publicações automáticas</span><i className='confirm' class="fa-solid fa-circle-check"></i></li>
           <li><span>Agenda integrada</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Gestão básica de equipe</span><i class="fa-solid fa-circle-check"></i></li>
-          <li><span>Painel completo</span><i class="fa-solid fa-circle-check"></i></li>
+          <li><span>Interface completa</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Estrutura para equipes médias</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Alto desempenho</span><i class="fa-solid fa-circle-check"></i></li>
           <li><span>Operações em larga escala</span><i class="fa-solid fa-circle-check"></i></li>

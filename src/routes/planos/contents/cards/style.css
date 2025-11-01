@@ -3,9 +3,25 @@
     border-radius: 10px;
     box-shadow: 1px 0px 10px var(--primaria);
     padding: 15px;
+    position: relative;
+
+    & .selo-recomendado {
+      display: inline-block;
+      background-color: #ffb400;
+      color: #000;
+      font-size: 0.7rem;
+      font-weight: bold;
+      padding: 4px 6px;
+      border-radius: 10px;
+      margin-left: 8px;
+      position: absolute;
+      top: 2px;
+      left: 20px; 
+    }
   }
 
   .plan-card h2 {
+    padding: 10px;
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: var(--quarta);
