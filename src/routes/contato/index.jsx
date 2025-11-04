@@ -102,7 +102,7 @@ function Contato() {
                 </span>
               )}
             </div>
-            <input type="hidden" name="_next" value="https://jurisportal-alpha.vercel.app/" />
+            <input type="hidden" name="_next" value="https://jurisportal.com.br/" />
             <button type="submit">Enviar Mensagem</button>
           </form>
         </section>
