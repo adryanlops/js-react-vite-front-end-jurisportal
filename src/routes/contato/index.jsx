@@ -4,7 +4,6 @@ import { ContactContainer } from "./content/ContactContainer";
 import { PageTitle } from "./content/PageTitle";
 import "./style.css";
 import { ContactForm } from "./modules/ContactForm";
-import { ContactInfo } from "./modules/ContactInfo";
 
 function Contato() {
   const [form, setForm] = useState({
