@@ -9,13 +9,12 @@ import Contato from './routes/contato'
 import { RouterProvider, createHashRouter } from 'react-router-dom'
 
 
-const router = createHashRouter([
+const router = createHashRouter([ 
   {
     path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
-      // dica: use index:true para a rota raiz aninhada
       { index: true, element: <Home /> },
       { path: 'planos', element: <Planos /> },
       { path: 'contato', element: <Contato /> },
@@ -25,6 +24,6 @@ const router = createHashRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>,
 )
