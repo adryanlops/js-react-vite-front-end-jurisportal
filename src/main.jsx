@@ -6,10 +6,10 @@ import Home from './routes/home'
 import Planos from './routes/planos'
 import ErrorPage from './routes/error/errorpage'
 import Contato from './routes/contato'
-import { RouterProvider, HashRouter } from 'react-router-dom'
+import { RouterProvider, createHashRouter } from 'react-router-dom'
 
 
-const router = HashRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,

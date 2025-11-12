@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/jurisportal/', // <--- nome exato da sua subpasta
+  base: '/js-react-vite-front-end-jurisportal/', 
 })
