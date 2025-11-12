@@ -6,35 +6,25 @@ import Home from './routes/home'
 import Planos from './routes/planos'
 import ErrorPage from './routes/error/errorpage'
 import Contato from './routes/contato'
-import { createBrowserRouter, RouterProvider, HashRouter } from 'react-router-dom'
+import { RouterProvider, HashRouter } from 'react-router-dom'
 
 
-const router = createBrowserRouter([
+const router = HashRouter([
   {
     path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
-    children:[
-      {
-        path: "/",
-        element: <Home />
-      },
-      {
-        path: "planos",
-        element: <Planos />
-      },
-      {
-        path: "contato",
-        element: <Contato />
-      }
-    ]
+    children: [
+      // dica: use index:true para a rota raiz aninhada
+      { index: true, element: <Home /> },
+      { path: 'planos', element: <Planos /> },
+      { path: 'contato', element: <Contato /> },
+    ],
   },
 ])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter>
       <RouterProvider router={router} />
-    </HashRouter>
   </StrictMode>,
 )
