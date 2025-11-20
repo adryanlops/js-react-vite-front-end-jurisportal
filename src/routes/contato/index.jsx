@@ -1,7 +1,7 @@
 import { useState } from "react";
-import useContactForm from "./../../services/validacao"
+import useContactForm from "./../../services/validacao";
 import { ContactContainer } from "./content/ContactContainer";
-import { PageTitle } from "./content/PageTitle"
+import { PageTitle } from "./content/PageTitle";
 import "./style.css";
 
 function Contato() {
@@ -11,23 +11,26 @@ function Contato() {
     subject: "",
     message: "",
   });
-
+ 
   const { errors, handleChange, handleSubmit } = useContactForm(form, setForm);
 
   return (
     <div className="container">
-      
       <PageTitle />
 
       <main className="main-container">
-
-      <ContactContainer />
+        <ContactContainer />
 
         <section className="contact-form-container">
           <h3>Contatar</h3>
 
-          <form id="contact-form" onSubmit={handleSubmit} noValidate>
-
+          <form
+            action={"https://formsubmit.co/lucasjurisportal@gmail.com"}
+            method="POST"
+            id="contact-form"
+            onSubmit={handleSubmit}
+            noValidate
+          >
             <div className={`input-group ${errors.name ? "invalid" : "valid"}`}>
               <label htmlFor="name">Nome</label>
               <input
@@ -99,7 +102,7 @@ function Contato() {
                 </span>
               )}
             </div>
-
+            <input type="hidden" name="_next" value="https://jurisportal.com.br/" />
             <button type="submit">Enviar Mensagem</button>
           </form>
         </section>

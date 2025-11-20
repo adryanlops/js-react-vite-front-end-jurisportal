@@ -25,7 +25,15 @@ function useContactForm(form, setForm) {
     setErrors(newErrors);
     if (Object.keys(newErrors).length > 0) return;
 
-    console.log("Form enviado:", form);
+    e.target.submit();
+
+    setForm({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+
   }
 
   return { errors, handleChange, handleSubmit };
