@@ -22,7 +22,6 @@ function Contato() {
       <main className="main-container">
         <ContactContainer />
 
-
         <ContactForm
           form={form}
           errors={errors}
